@@ -1,0 +1,17 @@
+/* body {
+  background-color: #ffffe6;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+} */
+footer p{
+  color: grey;
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 500px;
+  font-family: Trebuchet, sans-serif;
+  text-align: center;
+}

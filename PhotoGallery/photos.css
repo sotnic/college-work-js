@@ -1,0 +1,237 @@
+/* apply a natural box layout model to all elements */
+* {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/* reset rules */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+body {
+    line-height: 1;
+    width: 70%;
+    margin: 0 auto;
+    font-family: verdana, arial, helvetica, sans-serif;
+    background: #ffffff;
+    position: relative;
+}
+
+ol, ul {
+   list-style: none;
+}
+
+blockquote, q {
+   quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+a:link, a:visited {
+   text-decoration: none;
+   color: inherit;
+}
+
+a:hover {
+   text-decoration: none;
+   color: inherit;
+}
+
+a:active {
+   text-decoration: none;
+   color: inherit;
+}
+
+/* page header */
+header {
+    color: black;
+    font-size: 4.1em;
+    font-family: monospace;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+header h1 {
+   text-align: center;
+   padding: 0.5em;
+}
+
+#home {
+    background-image: linear-gradient(to bottom, #737373, #333333);
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    padding: 5px 7.5px 5px 7.5px;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    background-color: white;
+    text-align: left;
+    border-radius: 5px;
+    margin-top: 150px;
+}
+
+    #home:hover {
+        background: #3cb0fd;
+        background-image: linear-gradient(to bottom, #808080, #737373);
+        text-decoration: none;
+    }
+
+/* main content */
+article {
+   background: black;
+   position: relative;
+}
+
+article h2 {
+   font-size: 1.2em;
+   font-weight: bold;
+   text-align: left;
+   margin: 0 0 10px 51px;
+}
+
+#leftarrow, #rightarrow {
+   background: black;
+   color: white;
+   position: absolute;
+   z-index: 30;
+   text-align: center;
+   height: 135px;
+   width: 40px;
+   top: 67px;
+}
+
+#leftarrow p, #rightarrow p {
+    position: relative;
+    top: 50%;
+    margin-top: -0.5em;
+}
+
+article div:hover {
+   cursor: default;
+}
+
+#leftarrow {
+    left: 0;    
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#rightarrow {
+    right: 0;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#fiveButton {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 290px;
+    color: white;
+    text-align: center;       
+}
+
+#fiveButton p {
+    width: 20%;
+    margin: 0 auto;
+    line-height: 2em;
+    background: black;
+    border: solid #333333;
+    border-radius: 15px;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+#favorites {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+    position: absolute;
+    top: 330px;
+    color: black;
+    font-size: 1.2em;
+}
+
+figure {
+   position: absolute;
+   -webkit-box-shadow: 10px 0px 5px rgb(50, 50, 50),
+                       -10px 0px 5px rgb(50, 50, 50);
+   -moz-box-shadow:    10px 0px 5px rgb(50, 50, 50),
+                       -10px 0px 5px rgb(50, 50, 50);
+   box-shadow:         10px 0px 5px rgb(50, 50, 50),
+                       -10px 0px 5px rgb(50, 50, 50);
+}
+
+#fig2 {
+   z-index: 10;
+   left: 13%;
+   top: 34px;
+}
+
+#fig3 {
+   z-index: 20;
+   left: 50%;
+   margin-left: -240px;
+   top: 0;
+}
+
+#fig4 {
+   z-index: 10;
+   right: 13%;
+   top: 34px;
+}
+
+/* footer */
+footer {
+   position: absolute;   
+   margin-top: 600px;
+   width: 100%;
+   font-size: 14px;
+   padding: 10px;
+   clear: both;
+   background: white;
+   color: grey;
+}
+
+footer p {
+   text-align: center;
+}
+
+#fav {
+    position: absolute;
+    margin-top: 290px;
+}
+

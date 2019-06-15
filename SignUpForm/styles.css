@@ -1,0 +1,100 @@
+body {
+  width: 980px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: #ecf2f9;
+}
+button, input, select, textarea {
+	color: #5A5A5A;
+	font: inherit;
+	margin: 0;
+}
+/* textarea {
+	overflow: auto;
+} */
+.text {
+  border: solid 3px #474544;
+	max-width: 740px;
+	margin: 60px auto;
+	position: relative;
+	min-height: 580px;
+}
+h1 {
+  font-family: monospace, Arial, sans-serif;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  text-align: center;
+}
+tr {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+}
+input[type=text], [type=password], [type=email] {
+    border-color: black;
+    font-size: 16pt;
+    text-align: center;
+    width: 290px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#leftCol {
+  position: absolute;
+  margin-left: 40px;
+}
+#rightCol {
+  position: absolute;
+  margin-left: 400px;
+}
+#submitBtn {
+  color: black;
+  font-family: monospace;
+  font-size: 22px;
+  padding: 5px 17.5px 5px 17.5px;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  background-color: white;
+  border-color: black;
+  text-align: left;
+  margin-top: 20px;
+}
+#resetBtn{
+  color: black;
+  font-family: monospace;
+  font-size: 22px;
+  padding: 5px 17.5px 5px 17.5px;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  background-color: white;
+  border-color: black;
+  text-align: left;
+  margin-top: 20px;
+}
+#home {
+  color: black;
+  font-family: monospace;
+  font-size: 22px;
+  padding: 5px 17.5px 5px 17.5px;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  background-color: white;
+  border-color: black;
+  margin-top: 20px;
+}
+footer p{
+  font-family: monospace, Arial, sans-serif;
+  text-align: center;
+}
+h2 {
+	color: #474544;
+	font-size: 26px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	text-align: center;
+	text-transform: uppercase;
+  margin-right: : 300px;
+  margin-top: 430px;
+}
+a{
+	text-decoration: none;
+}

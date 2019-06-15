@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>COMP125 - Oleksandr Sotnykov - Assignment 4</title>
+    <link rel="stylesheet" media="screen and (min-device-width: 1000px)" href="styles.css" />
+</head>
+
+<body id="allPage">
+  <div>
+        <form method="post" id="vform" onsubmit="return false">
+            <fieldset class="text">
+              <h1>Memeber Registration</h1>
+              <table>
+                <tr>
+                  <td id="leftCol">
+                    <label for="firstName"></label>
+                    <input type="text" placeholder="First Name" id="fName" name="fName"/><br>
+                    <label for="age"></label>
+                    <input type="text" placeholder="Age" id="age" name="age" ><br>
+                    <label for="city"></label>
+                    <input type="text" placeholder="City" name="city" id="city" ><br>
+                    <label for="province"></label>
+                    <input type="text" placeholder="Province" name="province" id="province" ><br>
+                    <label for="pw1"></label>
+                    <input type="password" placeholder="Password" name="pw1" id="pw1" ><br>
+                    <input type="submit" value="Submit" class="button" id="submitBtn" />
+                  </td>
+                  <td id="rightCol">
+                    <label for="lastName"></label>
+                    <input type="text" placeholder="Last Name" id="lName" name="lName"/><br>
+                    <label for="address"></label>
+                    <input type="text" placeholder="Address" id="address" name="address" /><br>
+                    <label for="pCode"></label>
+                    <input type="text" placeholder="Postal Code" name="pCode" id="pCode" ><br>
+                    <label for="emailbox"></label>
+                    <input type="text" placeholder="E-mail" name="emailbox" id="emailbox" ><br>
+                    <label for="pw2"></label>
+                    <input type="password" placeholder="Confirm Password" name="pw2" id="pw2" ><br>
+                    <input type="reset" value="Reset" class="button" id="resetBtn" />
+                  </td>
+              </tr>
+              </table>
+              <table>
+                <a href="../../index.html"><h2>&bull;&nbsp;Home&nbsp;&bull;</h2></a>
+              </table>
+            </fieldset>
+        </form>
+      </div>
+    <footer><p>&copy;&nbsp;Copyright Sotnykov Oleksandr - Student #300986475 - COMP125 - Summer 2018</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>COMP125 - Oleksandr Sotnykov - Assignment 2</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <a href="../../index.html" id="button">Home</a>
+    <header>
+        <h2>Addition Table</h2>
+    </header>
+
+    <form onsubmit="return false">
+        <fieldset id="inputDiv">
+            <legend style="color: #8585ad;">Input</legend>
+            <div id="rowDiv">
+                <label for="rowNum"><b>Rows:</b> </label>
+                <br />
+                <input type="number" id="rowNum" name="rowNum" value="40" style="width: 150px" required />
+            </div>
+            <div id="colDiv">
+                <label for="colNum"><b>Columns:</b> </label>
+                <br />
+                <input type="number" id="colNum" name="colNum" value="40" style="width: 150px" required />
+            </div>
+        </fieldset>
+        <div id="buttonDiv">
+            <button id="resultButton">Create Table</button>
+        </div>
+    </form>
+      <hr>
+        <div id="tableOut">
+        </div>
+      <hr>
+        <h6>&copy;Copyright Oleksandr Sotnykov - #300986475 - COMP125 - Assignment 2</h6>
+    <script src="Assignment2.js"></script>
+</body>
+
+</html>
